@@ -28,6 +28,12 @@ while True:
     elif user_input == 'scissors' and computer_pick == 'paper':
         print("You win!")
         user_wins += 1
+    elif user_input == 'paper' and computer_pick == 'paper':
+        print("Its a draw!")
+    elif user_input == 'rock' and computer_pick == 'rock':
+        print("Its a draw!")
+    elif user_input == 'scissors' and computer_pick == 'scissors':
+        print("Its a draw!")
     else:                                                       # else will be all the combinations where computer wins
         print("Computer wins!")
         computer_wins += 1
