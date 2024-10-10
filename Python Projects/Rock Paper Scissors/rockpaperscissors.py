@@ -19,7 +19,7 @@ while True:
     computer_pick = options[random_number]
     print("Computer picked " + computer_pick + '.')
 
-    if user_input == 'paper' and computer_pick == 'rock':       # only check combinations where user wins
+    if user_input == 'paper' and computer_pick == 'rock':       # check combinations where user wins
         print("You win!")
         user_wins += 1
     elif user_input == 'rock' and computer_pick == 'scissors':
@@ -28,7 +28,7 @@ while True:
     elif user_input == 'scissors' and computer_pick == 'paper':
         print("You win!")
         user_wins += 1
-    elif user_input == 'paper' and computer_pick == 'paper':
+    elif user_input == 'paper' and computer_pick == 'paper':    # check combinations where picks are same so it gives draw
         print("Its a draw!")
     elif user_input == 'rock' and computer_pick == 'rock':
         print("Its a draw!")
