@@ -23,3 +23,5 @@ elif answer == 'white':
 
 else:
     print("That's not a valid option. You lose.")
+
+print("Thanks for trying", name)
